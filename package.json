@@ -1,0 +1,14 @@
+{
+  "name": "employers-live-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "npx tailwindcss -i ./Interior/interior.css -o ./Interior/css/interior.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

@@ -1,0 +1,2259 @@
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <!-- Gill Sans -->
+    <link href="https://fonts.cdnfonts.com/css/gill-sans" rel="stylesheet" />
+    <!-- Core theme TailwindCSS-->
+    <link rel="stylesheet" href="./css/interior.css" />
+    <!-- Core theme CSS-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Studio/Production Portal</title>
+  </head>
+
+  <body
+    class="h-full"
+    oncontextmenu="return false;"
+    data-new-gr-c-s-check-loaded="14.1102.0"
+    data-gr-ext-installed=""
+  >
+    <!-- Navbar -->
+    <nav
+      class="flex flex-col bg-federal-blue md:flex-row md:items-center fixed top-0 z-20 w-full xs:px-4 md:px-5 lg:px-8 py-3 justify-between"
+    >
+      <!-- Flex Container -->
+      <div
+        class="flex md:justify-around xs:justify-between gap-x-2 items-center lg:w-2/5 md:w-4/12"
+      >
+        <!-- Link Direct to Home Page -->
+        <div class="flex flex-row lg:gap-3">
+          <!-- Image Logo -->
+          <div class="lg:basis-16 xs:basis-11">
+            <a href="index.html">
+              <img src="images/navbar-logo.png" alt="Image of the OTTA logo" />
+            </a>
+          </div>
+          <!-- ONE TEAM TALENT AGENCY -->
+          <div class="flex justify-center items-center">
+            <a
+              href="index.html"
+              class="xl:text-2xl lg:text-lg xs:text-sm pt-2 flex items-center text-white-gold font-medium font-gill-sans"
+            >
+              ONE TEAM TALENT AGENCY
+            </a>
+          </div>
+        </div>
+
+        <!-- Hamburger -->
+        <div>
+          <button
+            class="md:hidden cursor-pointer flex flex-col justify-center gap-y-1"
+            id="hamburger"
+            aria-label="menu"
+          >
+            <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+            <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+            <div class="w-6 h-1 bar bg-white rounded-lg duration-500"></div>
+          </button>
+        </div>
+      </div>
+      <!-- Links -->
+      <ul
+        class="hidden md:flex justify-end items-center lg:gap-x-7 xs:gap-x-3 lg:gap-y-10 mt-5 sm:mt-0 text-white font-sans lg:w-4/5 2xl:text-base xl:text-base lg:text-xs md:text-xs font-bold"
+        id="links"
+      >
+        <li>
+          <a
+            href="index.html"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="members.html"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Members</a
+          >
+        </li>
+        <li>
+          <a
+            href="employers.html"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Employers</a
+          >
+        </li>
+        <li>
+          <a
+            href="credits.html"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Credits</a
+          >
+        </li>
+        <li>
+          <a
+            href="visions-and-values.html"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >Visions and Values</a
+          >
+        </li>
+        <li>
+          <a
+            href="about.html"
+            class="hover:text-sonic-silver hover:underline 2xl:pr-10 xl:pr-1"
+            >About Us</a
+          >
+        </li>
+        <li>
+          <button
+            onclick="document.signOutForm.submit(); return false;"
+            class="text-white hover:text-sonic-silver hover:underline"
+          >
+            Sign Out
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Body -->
+    <div>
+      <div>
+        <!-- Header Section-->
+        <header
+          class="lg:h-[350px] xs:h-[200px] bg-[url('/Interior/images/employer-dash.jpg')] bg-cover bg-top border-b-[8px] border-white-gold"
+        >
+          <div
+            class="pt-9 h-full flex justify-center items-center flex-col text-white"
+          >
+            <h2
+              class="text-center text-2xl font-medium leading-7 sm:truncate sm:text-5xl sm:tracking-tight mb-4 uppercase bg-black bg-opacity-10 font-gill-sans"
+              style="text-shadow: 1px 1px 2px black"
+            >
+              One Team Employer Portal
+            </h2>
+            <h2
+              class="text-center text-lg font-medium leading-7 sm:truncate sm:text-3xl sm:tracking-tight mb-10 bg-black bg-opacity-10 font-gill-sans"
+              style="text-shadow: 1px 1px 2px black"
+            >
+              Mike Exec, Bad Robot
+            </h2>
+          </div>
+        </header>
+
+        <!-- Content Section -->
+        <div>
+          <!-- 1st Section -->
+          <div class="bg-federal-blue">
+            <!-- Buttons -->
+            <div
+              class="mx-auto max-w-2xl px-4 pb-0 sm:px-6 sm:pb-0 lg:max-w-7xl lg:px-8"
+            >
+              <div class="py-5">
+                <div class="flex items-center lg:justify-end xs:justify-center">
+                  <div
+                    class="flex space-x-4 xs:flex-col lg:flex-row gap-5 justify-center items-center pt-2"
+                  >
+                    <div>
+                      <a
+                        href="employers-new-job-request.html"
+                        class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
+                        >Submit Job Request for a New Production
+                      </a>
+                    </div>
+
+                    <div>
+                      <a
+                        href="employer-confirmed-hires.html"
+                        class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
+                        >Confirmed Hires</a
+                      >
+                    </div>
+                    <div>
+                      <a
+                        href="employers-account-management.html"
+                        class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
+                        >Manage Users
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Productions Container-->
+            <div
+              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 lg:max-w-7xl lg:px-8"
+            >
+              <!-- Title -->
+              <div class="py-5">
+                <div class="flex items-center">
+                  <div class="flex-grow">
+                    <h2
+                      class="text-1xl font-semibold tracking-tight text-white sm:text-2xl"
+                    >
+                      <span class="block font-gill-sans"
+                        >Production</span
+                      >
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Production Info -->
+              <div class="px-4 sm:px-6 lg:px-8">
+                <!-- Container -->
+                <div class="flex flex-col">
+                  <div
+                    class="-mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8 overflow-y-auto"
+                  >
+                    <div
+                      class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[400px]"
+                    >
+                      <div
+                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                      >
+                        <table class="min-w-full divide-y divide-gray-300">
+                          <thead class="bg-gray-50">
+                            <tr>
+                              <th
+                                scope="col"
+                                class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                              >
+                                Name
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Type
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Status
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Start
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Wrap
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Location
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Job request(s)
+                              </th>
+                              <th
+                                scope="col"
+                                class="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                              >
+                                <span class="sr-only">Revise</span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <!-- Original 5 -->
+                          <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >WHOLE NEW SHOW</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/27/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="employer-job-request-completed.html"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/27/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="employer-revise-job-request.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Another One</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Revision</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                4/4/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                San Francisco, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="employer-job-request-completed.html"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >4/3/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="employer-job-request-under-review.html"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/31/2023</a
+                                    >
+                                    (under review)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="employer-revise-job-request.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/40"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What About Paul</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Feature - Tier III
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="employer-job-request-completed.html"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="employer-star-review.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Review<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What's In The Box</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Multicam/Sitcom
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/30/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Las Vegas, Nevada
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="employer-job-request-completed.html"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/26/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/40"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="employer-revise-job-request.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Test New123456</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1/2-hr SC Pilot
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/15/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="employer-job-request-completed.html"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="employers-confirm-hires.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Confir Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/58"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >WHOLE NEW SHOW</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/27/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/65"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/27/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/59"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Another One</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Revision</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                4/4/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                San Francisco, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/67"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >4/3/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/66"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/31/2023</a
+                                    >
+                                    (under review)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/59"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/40"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What About Paul</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Feature - Tier III
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/38"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/42"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What's In The Box</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Multicam/Sitcom
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/30/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Las Vegas, Nevada
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/43"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/26/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/40"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/43"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Test New123456</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1/2-hr SC Pilot
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/15/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/41"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                          <!-- Dummy 5 -->
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Prep Container -->
+          <div class="bg-white">
+            <div
+              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 lg:max-w-7xl lg:px-8"
+            >
+              <div class="py-5">
+                <div class="flex items-center">
+                  <div class="flex-grow">
+                    <h2
+                      class="text-1xl font-semibold tracking-tight text-federal-blue sm:text-2xl"
+                    >
+                      <span class="block font-gill-sans"
+                        >Prep</span
+                      >
+                    </h2>
+                  </div>
+
+                  <div class="flex-none flex space-x-4"></div>
+                </div>
+              </div>
+              <div class="px-4 sm:px-6 lg:px-8">
+                <!-- Container -->
+                <div class="flex flex-col">
+                  <div
+                    class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
+                  >
+                    <div
+                      class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-0 h-[400px]"
+                    >
+                      <div
+                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                      >
+                        <table class="min-w-full divide-y divide-gray-300">
+                          <thead class="bg-gray-50">
+                            <tr>
+                              <th
+                                scope="col"
+                                class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                              >
+                                Name
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Type
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Status
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Start
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Wrap
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Location
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Job request(s)
+                              </th>
+                              <th
+                                scope="col"
+                                class="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                              >
+                                <span class="sr-only">Revise</span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >WHOLE NEW SHOW</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/27/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/65"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/27/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Another One</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Revision</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                4/4/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                San Francisco, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/67"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >4/3/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/66"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/31/2023</a
+                                    >
+                                    (under review)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What About Paul</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Feature - Tier III
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/38"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What's In The Box</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Multicam/Sitcom
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/30/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Las Vegas, Nevada
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/43"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/26/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/40"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Test New123456</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1/2-hr SC Pilot
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/15/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/41"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wrapped Productions -->
+          <div class="bg-federal-blue">
+            <div
+              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 lg:max-w-7xl lg:px-8"
+            >
+              <div class="py-5">
+                <div class="flex items-center">
+                  <div class="flex-grow">
+                    <h2
+                      class="text-1xl font-semibold tracking-tight text-white sm:text-2xl"
+                    >
+                      <span class="block font-gill-sans"
+                        >Wrap</span
+                      >
+                    </h2>
+                  </div>
+
+                  <div class="flex-none flex space-x-4"></div>
+                </div>
+              </div>
+
+              <div class="px-4 sm:px-6 lg:px-8">
+                <!-- Container -->
+                <div class="flex flex-col">
+                  <div
+                    class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
+                  >
+                    <div
+                      class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-0 h-[400px]"
+                    >
+                      <div
+                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                      >
+                        <table class="min-w-full divide-y divide-gray-300">
+                          <thead class="bg-gray-50">
+                            <tr>
+                              <th
+                                scope="col"
+                                class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                              >
+                                Name
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Type
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Status
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Start
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Wrap
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Location
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Job request(s)
+                              </th>
+                              <th
+                                scope="col"
+                                class="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                              >
+                                <span class="sr-only">Revise</span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/58"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >WHOLE NEW SHOW</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/27/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/65"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/27/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/59"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Another One</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Revision</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/31/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                4/4/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                San Francisco, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/67"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >4/3/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/66"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/31/2023</a
+                                    >
+                                    (under review)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/40"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What About Paul</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Feature - Tier III
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/38"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/42"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >What's In The Box</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Multicam/Sitcom
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/13/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/30/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Las Vegas, Nevada
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/43"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/26/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/40"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/43"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Test New123456</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1/2-hr SC Pilot
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Complete</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/15/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/41"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <!-- Button -->
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2 justify-center"
+                              >
+                                <a
+                                  href="/ConfirmHires/58"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-GRAY-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Conf Hires<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Canceled Productions -->
+          <div class="bg-white">
+            <div
+              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 lg:max-w-7xl lg:px-8"
+            >
+              <div class="py-5">
+                <div class="flex items-center">
+                  <div class="flex-grow">
+                    <h2
+                      class="text-1xl font-semibold tracking-tight text-federal-blue sm:text-2xl"
+                    >
+                      <span class="block font-gill-sans"
+                        >Cancelled</span
+                      >
+                    </h2>
+                  </div>
+
+                  <div class="flex-none flex space-x-4"></div>
+                </div>
+              </div>
+              <div class="px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col">
+                  <div
+                    class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
+                  >
+                    <div
+                      class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-0 h-[400px]"
+                    >
+                      <div
+                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                      >
+                        <table class="min-w-full divide-y divide-gray-300">
+                          <thead class="bg-gray-50">
+                            <tr>
+                              <th
+                                scope="col"
+                                class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                              >
+                                Name
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Type
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Status
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Start
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Wrap
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Location
+                              </th>
+                              <th
+                                scope="col"
+                                class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                              >
+                                Job request(s)
+                              </th>
+                              <th
+                                scope="col"
+                                class="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                              >
+                                <span class="sr-only">Revise</span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/41"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >LA Up Time</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Feature - Tier III
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Canceled</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/12/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                12/14/2022
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/42"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/39"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >12/12/2022</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2"
+                              ></td>
+                            </tr>
+                            <tr>
+                              <td
+                                class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+                              >
+                                <a
+                                  href="/Show/56"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Fake Show</a
+                                >
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                1-hr Single Camera
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <span>Canceled</span>
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/15/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                3/17/2023
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                Los Angeles, California
+                              </td>
+
+                              <td
+                                class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+                              >
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="/ViewJobRequest/60"
+                                      class="text-blue-700 hover:text-blue-900"
+                                      >3/14/2023</a
+                                    >
+                                    (completed)
+                                  </li>
+                                </ul>
+                              </td>
+
+                              <td
+                                class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 flex space-x-2"
+                              ></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="font-gill-sans text-white bg-federal-blue font-thin w-full">
+      <!-- Footer Logo Image -->
+      <div class="pt-6">
+        <a href="#" class="flex justify-center items-center">
+          <img
+            src="images/footer-logo.png"
+            alt="Image of OTTA logo"
+            class="h-16 w-auto"
+          />
+        </a>
+      </div>
+      <!-- Flex Container -->
+      <div
+        class="flex xl:flex-row xs:flex-col justify-center items-center px-6 py-5 mx-auto gap-4"
+        aria-label="Footer"
+      >
+        <!-- Navigation Links -->
+        <ul
+          class="flex flex-row gap-4 text-white-gold lg:text-lg xs:text-base text-center"
+        >
+          <!-- Contact Links -->
+          <li>
+            <a
+              href="contact.html"
+              class="hover:text-sonic-silver hover:cursor-pointer"
+              >Contact</a
+            >
+          </li>
+          <span>|</span>
+          <!-- Terms of Use -->
+          <li class="text-center">
+            <a
+              href="terms-of-use.html"
+              class="hover:text-sonic-silver hover:cursor-pointer"
+              >Terms of Use</a
+            >
+          </li>
+          <span>|</span>
+          <!-- Privacy Link -->
+          <li>
+            <a
+              href="privacy.html"
+              class="hover:text-sonic-silver hover:cursor-pointer"
+              >Privacy</a
+            >
+          </li>
+          <span>|</span>
+          <!-- Faq -->
+          <li>
+            <a
+              href="faq.html"
+              class="hover:text-sonic-silver hover:cursor-pointer"
+              >FAQ</a
+            >
+          </li>
+          <span class="xl:block xs:hidden">|</span>
+        </ul>
+        <!-- Socials -->
+        <ul class="flex flex-row gap-4">
+          <!-- Facebook -->
+          <li>
+            <a href="" aria-label="Facebook">
+              <svg
+                class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+          </li>
+          <!-- Instagram -->
+          <li>
+            <a href="#" aria-label="Instagram">
+              <svg
+                class="h-6 w-6 text-sonic-silver fill-current hover:cursor-pointer"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <!-- Twitter -->
+          <li>
+            <a href="#" aria-label="Twitter">
+              <svg
+                class="w-6 h-6 text-sonic-silver fill-current hover:cursor-pointer"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-white-gold flex flex-row lg:text-lg xs:text-base gap-4"
+        >
+          <span class="xl:block xs:hidden">|</span>
+          <p>&copy; 2023 One Team Talent Agency, Inc. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
