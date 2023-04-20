@@ -1125,12 +1125,12 @@ body::before {
   --tw-bg-opacity: 0.75;
 }
 
-.bg-\[url\(\'\/Interior\/images\/employer-dash\.jpg\'\)\] {
-  background-image: url('/Interior/images/employer-dash.jpg');
+.bg-\[url\(\'\/images\/employer-dash\.jpg\'\)\] {
+  background-image: url('/images/employer-dash.jpg');
 }
 
-.bg-\[url\(\'\/Interior\/images\/white-stars-bg\.jpg\'\)\] {
-  background-image: url('/Interior/images/white-stars-bg.jpg');
+.bg-\[url\(\'\/images\/white-stars-bg\.jpg\'\)\] {
+  background-image: url('/images/white-stars-bg.jpg');
 }
 
 .bg-auto {
@@ -1586,11 +1586,6 @@ body::before {
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-red-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-red-700:hover {
