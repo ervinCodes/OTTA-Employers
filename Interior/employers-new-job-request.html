@@ -370,49 +370,105 @@
                     </fieldset>
                   </div>
 
-                  <div class="sm:col-span-2">
-                    <label
-                      for="production-location"
-                      class="block text-sm font-medium text-gray-700"
-                      >Location</label
-                    >
-                    <div class="mt-1">
-                      <span
-                        class="telerik-blazor k-combobox k-input k-input-solid k-input-md k-rounded-md"
-                        data-id="70994557-0306-4b75-bc21-306a9311b7fc"
-                      >
-                        <input
-                          tabindex="0"
-                          class="k-input-inner"
-                          type="text"
-                          placeholder="City, State"
-                          autocomplete="off"
-                          role="combobox"
-                          aria-busy="false"
-                          aria-autocomplete="list"
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-controls="39770bd8-add5-43e6-91b9-eca26c72fdd0"
-                          aria-owns="39770bd8-add5-43e6-91b9-eca26c72fdd0"
-                        />
-
-                        <button
-                          class="telerik-blazor k-button k-input-button k-button-solid k-button-md k-button-solid-base k-icon-button"
-                          id="4ff75c59-348b-45ee-afd4-d3bdc5ab63f5"
-                          data-id="eea23cfe-d006-4ccf-85c5-fdf1d773985c"
-                          tabindex="-1"
-                          aria-label="Open"
-                          aria-disabled="false"
-                          type="button"
-                        >
-                          <span
-                            class="telerik-blazor k-button-icon k-icon k-i-caret-alt-down"
-                            aria-hidden="true"
-                          ></span>
-                        </button>
-                      </span>
+                    <!-- Location & Experienced Preferred -->
+                    <div class="sm:col-span-2">
+                      <!-- Flex Container -->
+                      <div class="flex flex-col">
+                        <!-- 1 -->
+                        <div>
+                              <label
+                            for="production-location"
+                            class="block text-sm font-medium text-gray-700"
+                            >Location</label
+                          >
+                          <div class="mt-1">
+                            <input
+                              id="production-location"
+                              type="text"
+                              disabled="disabled"
+                              class="block w-full rounded-md border-gray-300 shadow-sm sm:text-sm bg-gray-100 text-gray-700"
+                            />
+                          </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="mt-4">
+                          <fieldset>
+                            <legend class="contents text-base font-semibold">
+                             Experience Preferred
+                            </legend>
+                            <div class="mt-4 space-y-4">
+                              <div class="flex items-center">
+                                <input
+                                  id=""
+                                  name="push-notifications"
+                                  type="radio"
+                                  class="h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
+                                />
+                                <label
+                                  for=""
+                                  class="ml-3 block text-sm font-medium text-gray-700"
+                                  >1/2-hr Single-Camera Series</label
+                                >
+                              </div>
+                              <div class="flex items-center">
+                                <input
+                                  id=""
+                                  name="push-notifications"
+                                  type="radio"
+                                  class="h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
+                                />
+                                <label
+                                  for=""
+                                  class="ml-3 block text-sm font-medium text-gray-700"
+                                  >1-hr Single-Camera Series</label
+                                >
+                              </div>
+    
+                              <div class="flex items-center">
+                                <input
+                                  id=""
+                                  name="push-notifications"
+                                  type="radio"
+                                  class="h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
+                                />
+                                <label
+                                  for=""
+                                  class="ml-3 block text-sm font-medium text-gray-700"
+                                  >Multi-cam</label
+                                >
+                              </div>
+                              <div class="flex items-center">
+                                <input
+                                  id=""
+                                  name="push-notifications"
+                                  type="radio"
+                                  class="h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
+                                />
+                                <label
+                                  for=""
+                                  class="ml-3 block text-sm font-medium text-gray-700"
+                                  >Feature</label
+                                >
+                              </div>
+                              <div class="flex items-center">
+                                <input
+                                  id=""
+                                  name="push-notifications"
+                                  type="radio"
+                                  class="h-4 w-4 border-gray-300 text-blue-600 focus:ring-blue-500"
+                                />
+                                <label
+                                  for=""
+                                  class="ml-3 block text-sm font-medium text-gray-700"
+                                  >Alternative/Reality</label
+                                >
+                              </div>
+                            </div>
+                          </fieldset>
+                        </div>
+                      </div>
+                      
                     </div>
-                  </div>
                 </div>
 
                 <div
