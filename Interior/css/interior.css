@@ -1157,6 +1157,10 @@ body::before {
   background-position: top;
 }
 
+.bg-bottom {
+  background-position: bottom;
+}
+
 .fill-current {
   fill: currentColor;
 }
