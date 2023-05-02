@@ -1141,6 +1141,10 @@ body::before {
   background-image: url('/images/white-stars-bg.jpg');
 }
 
+.bg-\[url\(\'\/images\/white-with-gold-stars-bg\.jpeg\'\)\] {
+  background-image: url('/images/white-with-gold-stars-bg.jpeg');
+}
+
 .bg-auto {
   background-size: auto;
 }
