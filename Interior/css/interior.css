@@ -754,6 +754,10 @@ body::before {
   height: 100%;
 }
 
+.h-\[535px\] {
+  height: 535px;
+}
+
 .w-11 {
   width: 2.75rem;
 }
