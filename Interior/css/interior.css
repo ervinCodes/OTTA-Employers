@@ -734,8 +734,16 @@ body::before {
   height: 2.25rem;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[175px\] {
+  height: 175px;
+}
+
+.h-\[275px\] {
+  height: 275px;
+}
+
+.h-\[525px\] {
+  height: 525px;
 }
 
 .h-full {
@@ -806,16 +814,20 @@ body::before {
   flex: 1 1 0%;
 }
 
-.flex-none {
-  flex: none;
-}
-
 .flex-shrink-0 {
   flex-shrink: 0;
 }
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.basis-1\/3 {
+  flex-basis: 33.333333%;
 }
 
 .translate-x-5 {
@@ -879,8 +891,16 @@ body::before {
   justify-content: space-around;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-28 {
+  gap: 7rem;
 }
 
 .gap-4 {
@@ -907,12 +927,6 @@ body::before {
 
 .gap-y-6 {
   row-gap: 1.5rem;
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -1129,10 +1143,6 @@ body::before {
   background-image: url('/Interior/images/employer-dash.jpg');
 }
 
-.bg-\[url\(\'\/Interior\/images\/white-with-gold-stars-bg\.jpeg\'\)\] {
-  background-image: url('/Interior/images/white-with-gold-stars-bg.jpeg');
-}
-
 .bg-\[url\(\'\/images\/employer-dash\.jpg\'\)\] {
   background-image: url('/images/employer-dash.jpg');
 }
@@ -1153,12 +1163,12 @@ body::before {
   background-size: cover;
 }
 
-.bg-top {
-  background-position: top;
-}
-
 .bg-bottom {
   background-position: bottom;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -1175,11 +1185,6 @@ body::before {
 
 .p-4 {
   padding: 1rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
 }
 
 .px-3 {
@@ -1250,6 +1255,10 @@ body::before {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pb-8 {
@@ -1403,10 +1412,6 @@ body::before {
 
 .leading-7 {
   line-height: 1.75rem;
-}
-
-.tracking-tight {
-  letter-spacing: -0.025em;
 }
 
 .text-blue-600 {
@@ -1964,11 +1969,6 @@ body::before {
     padding-right: 1.5rem;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2022,6 +2022,10 @@ body::before {
 
   .md\:w-4\/12 {
     width: 33.333333%;
+  }
+
+  .md\:max-w-7xl {
+    max-width: 80rem;
   }
 
   .md\:flex-row {
@@ -2141,6 +2145,11 @@ body::before {
     padding-right: 0px;
   }
 
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2149,11 +2158,6 @@ body::before {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
   }
 
   .lg\:text-lg {
