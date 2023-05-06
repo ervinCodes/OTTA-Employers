@@ -670,6 +670,10 @@ body::before {
   margin-top: 2rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -814,6 +818,10 @@ body::before {
   flex: 1 1 0%;
 }
 
+.flex-none {
+  flex: none;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -911,6 +919,10 @@ body::before {
   gap: 1.25rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -983,6 +995,10 @@ body::before {
 .divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-divide-opacity));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .overflow-hidden {
@@ -1153,6 +1169,14 @@ body::before {
 
 .bg-\[url\(\'\/images\/white-with-gold-stars-bg\.jpeg\'\)\] {
   background-image: url('/images/white-with-gold-stars-bg.jpeg');
+}
+
+.bg-\[url\(\'\/Interior\/images\/white-stars-bg\.jpg\'\)\] {
+  background-image: url('/Interior/images/white-stars-bg.jpg');
+}
+
+.bg-\[url\(\'\/Interior\/images\/white-with-gold-stars-bg\.jpeg\'\)\] {
+  background-image: url('/Interior/images/white-with-gold-stars-bg.jpeg');
 }
 
 .bg-auto {
@@ -1711,6 +1735,11 @@ body::before {
 .focus\:ring-red-500:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(239 68 68 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-indigo-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));
 }
 
 .focus\:ring-offset-2:focus {

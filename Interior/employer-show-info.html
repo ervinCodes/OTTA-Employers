@@ -120,7 +120,7 @@
       <div>
         <!-- Header Section-->
         <header
-          class="lg:h-[350px] xs:h-[200px] bg-[url('/images/employer-dash.jpg')] bg-cover bg-top border-b-[8px] border-white-gold"
+          class="lg:h-[350px] xs:h-[200px] bg-[url('/Interior/images/employer-dash.jpg')] bg-cover bg-top border-b-[8px] border-white-gold"
         >
           <div
             class="pt-9 h-full flex justify-center items-center flex-col text-white"
@@ -277,7 +277,9 @@
               >
                 <div class="flex items-center space-x-5">
                   <div>
-                    <p class="text-xl font-medium text-federal-blue">Bad Robot</p>
+                    <p class="text-xl font-medium text-federal-blue">
+                      Bad Robot
+                    </p>
                   </div>
                 </div>
               </div>
@@ -363,9 +365,10 @@
                         </div>
 
                         <div
-                          class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6"
+                          class="mt-6 gap-20 flex flex-row justify-between"
                         >
-                          <div class="sm:col-span-3">
+                          <!-- 1 -->
+                          <div class="">
                             <label
                               for="production-name"
                               class="block text-sm font-medium text-gray-700"
@@ -373,8 +376,8 @@
                             >
                             <div class="mt-1">WHOLE NEW SHOW</div>
                           </div>
-
-                          <div class="sm:col-span-2">
+                          <!-- 2 -->
+                          <div class="">
                             <label
                               for="production-type"
                               class="block text-sm font-medium text-gray-700"
@@ -382,7 +385,83 @@
                             >
                             <div class="mt-1">1-hr Single Camera</div>
                           </div>
+                          <!-- 3 -->
+                          <div class="">
+                            <div class="flex">
+                              <div class="flex-none">
+                                <label
+                                  for="production-name"
+                                  class="block text-sm font-medium text-gray-700"
+                                  >Wrap date</label
+                                >
+                                <div class="mt-1">
+                                  
+  
+                                  
+                                  
+                                  
+  
+                                  
+                                  
+                                  
+                                  <span
+                                    class="k-datepicker telerik-blazor k-input k-input-md k-input-solid k-rounded-md"
+                                    data-id="b54fbfab-4471-406e-8476-057e4398708d"
+                                    >
+                                    <input
+                                      class="k-input-inner"
+                                      tabindex="0"
+                                      role="combobox"
+                                      data-id="5434cdb2-d5e7-4967-8e50-5dd9eb280531"
+                                      autocomplete="off"
+                                      aria-expanded="false"
+                                      aria-haspopup="grid"
+                                      _bl_6bfbde37-8bdc-4e79-8caf-ea331954c0cf=""
+                                    />
+                                    
+                                    
+                                    <button
+                                      class="telerik-blazor k-button k-input-button k-button-solid k-button-md k-button-solid-base k-icon-button"
+                                      id="39f958fc-06e5-4233-abed-c443aa5d02d5"
+                                      data-id="9af3fe18-9cde-4817-89c8-794d845c510a"
+                                      tabindex="-1"
+                                      aria-label="Open"
+                                      aria-disabled="false"
+                                      type="button"
+                                    >
+                                      
+  
+                                      
+                                      
+                                      <span
+                                        class="telerik-blazor k-button-icon k-icon k-i-calendar"
+                                        aria-hidden="true"
+                                      ></span
+                                      >
+                                      
+                                      </button
+                                    >
+                                     </span
+                                  >
+                                  
+                                  
+  
+                                  
+                                </div>
+                              </div>
+                              
+                              <div class="flex-none pl-4 self-end">
+                                <button
+                                  type="button"
+                                  class="h-9 inline-flex items-center rounded-md border border-gray-300 bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                >
+                                  Update
+                                </button>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        
                       </div>
                     </div>
                   </form>
@@ -408,7 +487,7 @@
                         <div>
                           <button
                             type="button"
-                            class="h-9 inline-flex items-center rounded-md border border-gray-300 bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                            class="h-9 inline-flex items-center rounded-md border border-gray-300 bg-federal-blue px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
                           >
                             Add Delegate
                           </button>
