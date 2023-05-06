@@ -1161,6 +1161,10 @@ body::before {
   background-position: bottom;
 }
 
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .fill-current {
   fill: currentColor;
 }
