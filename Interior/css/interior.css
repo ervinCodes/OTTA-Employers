@@ -618,6 +618,10 @@ body::before {
   margin-bottom: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -668,10 +672,6 @@ body::before {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .block {
@@ -746,16 +746,12 @@ body::before {
   height: 275px;
 }
 
-.h-\[525px\] {
-  height: 525px;
+.h-\[535px\] {
+  height: 535px;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[535px\] {
-  height: 535px;
 }
 
 .w-11 {
@@ -911,6 +907,10 @@ body::before {
   gap: 0.5rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-28 {
   gap: 7rem;
 }
@@ -921,10 +921,6 @@ body::before {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-20 {
-  gap: 5rem;
 }
 
 .gap-x-2 {
@@ -1175,14 +1171,6 @@ body::before {
   background-image: url('/images/white-with-gold-stars-bg.jpeg');
 }
 
-.bg-\[url\(\'\/Interior\/images\/white-stars-bg\.jpg\'\)\] {
-  background-image: url('/Interior/images/white-stars-bg.jpg');
-}
-
-.bg-\[url\(\'\/Interior\/images\/white-with-gold-stars-bg\.jpeg\'\)\] {
-  background-image: url('/Interior/images/white-with-gold-stars-bg.jpeg');
-}
-
 .bg-auto {
   background-size: auto;
 }
@@ -1197,10 +1185,6 @@ body::before {
 
 .bg-top {
   background-position: top;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .fill-current {
@@ -1736,14 +1720,14 @@ body::before {
   --tw-ring-color: rgb(17 24 39 / var(--tw-ring-opacity));
 }
 
-.focus\:ring-red-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(239 68 68 / var(--tw-ring-opacity));
-}
-
 .focus\:ring-indigo-500:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-red-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(239 68 68 / var(--tw-ring-opacity));
 }
 
 .focus\:ring-offset-2:focus {
@@ -1842,10 +1826,6 @@ body::before {
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
-  }
-
-  .sm\:col-span-3 {
-    grid-column: span 3 / span 3;
   }
 
   .sm\:col-span-4 {
