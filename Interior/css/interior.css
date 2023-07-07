@@ -1175,6 +1175,10 @@ body::before {
   background-image: url('Interior/images/employer-dash.jpg');
 }
 
+.bg-\[url\(\'\/Interior\/images\/white-stars-bg\.jpg\'\)\] {
+  background-image: url('/Interior/images/white-stars-bg.jpg');
+}
+
 .bg-auto {
   background-size: auto;
 }
@@ -1339,6 +1343,10 @@ body::before {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
