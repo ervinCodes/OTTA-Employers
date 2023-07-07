@@ -606,6 +606,11 @@ body::before {
   margin-bottom: 0.75rem;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .-ml-px {
   margin-left: -1px;
 }
