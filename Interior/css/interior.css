@@ -1171,6 +1171,10 @@ body::before {
   background-image: url('/images/white-with-gold-stars-bg.jpeg');
 }
 
+.bg-\[url\(\'Interior\/images\/employer-dash\.jpg\'\)\] {
+  background-image: url('Interior/images/employer-dash.jpg');
+}
+
 .bg-auto {
   background-size: auto;
 }
@@ -2171,6 +2175,10 @@ body::before {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:pr-32 {
+    padding-right: 8rem;
   }
 
   .lg\:text-lg {
