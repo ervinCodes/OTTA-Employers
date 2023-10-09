@@ -2241,6 +2241,11 @@ body::before {
     margin-right: 7rem;
   }
 
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:table-cell {
     display: table-cell;
   }
