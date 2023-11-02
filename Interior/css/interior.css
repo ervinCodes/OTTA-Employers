@@ -790,6 +790,14 @@ body::before {
   height: 100%;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
+}
+
 .w-11 {
   width: 2.75rem;
 }
@@ -1219,8 +1227,12 @@ body::before {
   background-image: url('Interior/images/employer-dash.jpg');
 }
 
-.bg-\[url\(\'\/\/images\/employer-dash\.jpg\'\)\] {
-  background-image: url('//images/employer-dash.jpg');
+.bg-\[url\(\'Interior\/images\/white-stars-bg\.jpg\'\)\] {
+  background-image: url('Interior/images/white-stars-bg.jpg');
+}
+
+.bg-\[url\(\'\/Interior\/images\/white-stars-bg\.jpg\'\)\] {
+  background-image: url('/Interior/images/white-stars-bg.jpg');
 }
 
 .bg-auto {
@@ -1425,6 +1437,10 @@ body::before {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-left {
@@ -2239,11 +2255,6 @@ body::before {
   .lg\:mx-28 {
     margin-left: 7rem;
     margin-right: 7rem;
-  }
-
-  .lg\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   .lg\:table-cell {
