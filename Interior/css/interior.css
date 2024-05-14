@@ -591,6 +591,10 @@ body::before {
   z-index: 20;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem;
@@ -923,6 +927,10 @@ body::before {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -1203,12 +1211,16 @@ body::before {
   --tw-bg-opacity: 0.75;
 }
 
-.bg-\[url\(\'\/Exterior\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/Exterior/images/members-background.jpeg');
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
 }
 
 .bg-\[url\(\'\/images\/employer-dash\.jpg\'\)\] {
   background-image: url('/images/employer-dash.jpg');
+}
+
+.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
+  background-image: url('/images/members-background.jpeg');
 }
 
 .bg-\[url\(\'\/images\/white-stars-bg\.jpg\'\)\] {
@@ -1223,12 +1235,8 @@ body::before {
   background-image: url('Interior/images/employer-dash.jpg');
 }
 
-.bg-\[url\(\'\/Interior\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/Interior/images/members-background.jpeg');
-}
-
-.bg-\[url\(\'\/images\/members-background\.jpeg\'\)\] {
-  background-image: url('/images/members-background.jpeg');
+.bg-\[url\(\'\/Interior\/images\/employer-dash\.jpg\'\)\] {
+  background-image: url('/Interior/images/employer-dash.jpg');
 }
 
 .bg-auto {
@@ -1325,6 +1333,11 @@ body::before {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-0 {
@@ -2331,6 +2344,10 @@ body::before {
     width: 80%;
   }
 
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
   .lg\:max-w-7xl {
     max-width: 80rem;
   }
@@ -2378,6 +2395,21 @@ body::before {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-72 {
+    padding-left: 18rem;
+    padding-right: 18rem;
   }
 
   .lg\:pl-20 {
