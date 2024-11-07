@@ -2229,6 +2229,11 @@ body::before {
     line-height: 1.75rem;
   }
 
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:tracking-tight {
     letter-spacing: -0.025em;
   }
