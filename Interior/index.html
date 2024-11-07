@@ -140,10 +140,10 @@
             </h2>
           </div>
         </header>
-
+        
         <!-- Content Section -->
         <div>
-          <!-- 1st Section -->
+          <!-- Submitted Section -->
           <div class="bg-federal-blue">
             <!-- Buttons -->
             <div
@@ -181,259 +181,271 @@
                 </div>
               </div>
             </div>
-
-            <!-- Submitted Title-->
-            <div class="pb-5">
-              <h2
-                class="py-2 mt-2 sm:text-4xl xl:w-1/4 lg:w-1/3 xs:w-1/2 bg-white text-federal-blue text-right pr-6 font-semibold font-gill-sans"
-              >
-                Submitted
-              </h2>
-            </div>
-            <!-- Submitted Container-->
+            <!-- Tabs -->
+         <div class="tab-section bg-gray-100 ">
+          <div class="flex flex-wrap">
+            <button class="p-4 text-federal-blue font-bold flex-grow w-80 hover:bg-dark-gold text-xl" data-tab-target="#tab1">Submitted</button>
+            <button class="p-4 text-federal-blue font-bold flex-grow w-80 hover:bg-dark-gold text-xl" data-tab-target="#tab2">Active</button>
+            <button class="p-4 text-federal-blue font-bold flex-grow w-80 hover:bg-dark-gold text-xl" data-tab-target="#tab3">Completed</button>
+            <button class="p-4 text-federal-blue font-bold flex-grow w-80 hover:bg-dark-gold text-xl" data-tab-target="#tab4">Cancelled</button>
+          </div>
+         </div>
+         <!-- Tabs Content -->
+          <div class="mt-4">
+            <div id="tab1" class="tab-content text-gray-700 hidden">
+              <!-- Submitted Title-->
+              <div class="pb-5">
+                <h2
+                  class="py-2 mt-2 sm:text-4xl xl:w-1/4 lg:w-1/3 xs:w-1/2 bg-white text-federal-blue text-right pr-6 font-semibold font-gill-sans"
+                >
+                  Submitted
+                </h2>
+              </div>
+              <!-- Submitted Container-->
             <div
-              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
-            >
-              <!-- Production Info -->
-              <div class="px-4 sm:px-6 lg:px-8">
-                <!-- Container -->
-                <div class="flex flex-col">
+            class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+          >
+            <!-- Production Info -->
+            <div class="px-4 sm:px-6 lg:px-8">
+              <!-- Container -->
+              <div class="flex flex-col">
+                <div
+                  class="-mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8 overflow-y-auto"
+                >
                   <div
-                    class="-mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8 overflow-y-auto"
+                    class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[535px]"
                   >
                     <div
-                      class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[535px]"
+                      class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
                     >
-                      <div
-                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
-                      >
-                        <table class="min-w-full divide-y divide-gray-300 bg-white">
-                          
-                          
-                          <tbody class="divide-y divide-gray-200 bg-white">
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
+                      <table class="min-w-full divide-y divide-gray-300 bg-white">
+                        
+                        
+                        <tbody class="divide-y divide-gray-200 bg-white">
+                          <tr>
+                            <td
+                              class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
+                            >
+                              <div class="basis-1/2 flex flex-col gap-1">
+                                <!-- Show Title -->
+                              <div>
+                                <a
+                                  href="employer-show-info.html"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >WHOLE NEW SHOW</a
+                                >
+                              </div>
+                              <!-- Prodcutions Dates and Locations -->
+                              <div>
+                                Production Dates: 3/27/2023-3/31/2023 (Los Angeles, California)
+                              </div>
+                              <!-- Type -->
+                              <div class="text-gray-400">
+                                1-hr Single Camera
+                              </div>
+                              <!-- Buttons -->
+                              <div class="py-2 flex flex-row items-center justify-between" >
+                                <div>
+                                    <a
+                                  href="employer-star-review.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Review<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a>
+                                  <a
+                                  href="employer-revise-job-request.html"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, WHOLE NEW SHOW</span
+                                  ></a
+                                >
+                                </div>
+                                
+                              </div>
+                              <!-- Job Request -->
+                              <div class="flex flex-row gap-28">
+                                <div class="basis-1/3">
+                                  <a href="employer-job-request-under-review.html" class="text-blue-700 hover:text-blue-900">
+                                    Job Request
+                                  </a>
+                                </div>
+                                <div class="basis-1/3">
+                                  Submitted 4/9/2023
+                                </div>
+                                <div class="basis-1/3">
+                                  Status: Under Review
+                                </div>
+                              </div>
+                              </div>
+                              <div class="flex basis-1/2 items-center justify-end">
                                 <div>
                                   <a
-                                    href="employer-show-info.html"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >WHOLE NEW SHOW</a
+                                    href="employers-confirm-hires.html"
+                                    class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
+                                    >Confirm Hires</a
                                   >
                                 </div>
-                                <!-- Prodcutions Dates and Locations -->
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
+                            >
+                              <div class="basis-1/2 flex flex-col gap-1">
+                                <!-- Show Title -->
+                              <div>
+                                <a
+                                  href="/"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Another One</a
+                                >
+                              </div>
+                              <!-- Prodcutions Dates and Locations -->
+                              <div>
+                                Production Dates: 3/31/2023-4/4/2023 (San Francisco, California)
+                              </div>
+                              <!-- Type -->
+                              <div class="text-gray-400">
+                                1-hr Single Camera
+                              </div>
+                              <!-- Buttons -->
+                              <div class="py-2 flex flex-row items-center justify-between" >
                                 <div>
-                                  Production Dates: 3/27/2023-3/31/2023 (Los Angeles, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                <!-- Buttons -->
-                                <div class="py-2 flex flex-row items-center justify-between" >
-                                  <div>
-                                      <a
-                                    href="employer-star-review.html"
-                                    class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
-                                    >Review<span class="sr-only"
-                                      >, WHOLE NEW SHOW</span
-                                    ></a>
                                     <a
-                                    href="employer-revise-job-request.html"
-                                    class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
-                                    >Revise<span class="sr-only"
-                                      >, WHOLE NEW SHOW</span
-                                    ></a
-                                  >
-                                  </div>
-                                  
+                                  href="/"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Review<span class="sr-only"
+                                    >, Another One</span
+                                  ></a>
+                                  <a
+                                  href="/"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, Another One</span
+                                  ></a
+                                >
                                 </div>
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28">
-                                  <div class="basis-1/3">
-                                    <a href="employer-job-request-under-review.html" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 4/9/2023
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Under Review
-                                  </div>
+                                
+                              </div>
+                              <!-- Job Request -->
+                              <div class="flex flex-row gap-28">
+                                <div class="basis-1/3" class="basis-1/3">
+                                  <a href="/" class="text-blue-700 hover:text-blue-900">
+                                    Job Request
+                                  </a>
                                 </div>
+                                <div class="basis-1/3" class="basis-1/3">
+                                  Submitted 3/31/2023
                                 </div>
-                                <div class="flex basis-1/2 items-center justify-end">
-                                  <div>
-                                    <a
-                                      href="employers-confirm-hires.html"
-                                      class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
-                                      >Confirm Hires</a
-                                    >
-                                  </div>
+                                <div class="basis-1/3" class="basis-1/3">
+                                  Status: Under Review
                                 </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
+                              </div>
+                              <!-- Job Request -->
+                              <div class="flex flex-row gap-28">
+                                <div class="basis-1/3">
+                                  <a href="employer-job-request-completed.html" class="text-blue-700 hover:text-blue-900">
+                                    Revision
+                                  </a>
+                                </div>
+                                <div class="basis-1/3">
+                                  Submitted 4/9/2023
+                                </div>
+                                <div class="basis-1/3">
+                                  Status: Completed
+                                </div>
+                              </div>
+                              </div>
+                              <div class="flex basis-1/2 items-center justify-end">
                                 <div>
                                   <a
-                                    href="/"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >Another One</a
+                                    href="/ConfirmedHires"
+                                    class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
+                                    >Confirm Hires</a
                                   >
                                 </div>
-                                <!-- Prodcutions Dates and Locations -->
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
+                            >
+                              <div class="basis-1/2 flex flex-col gap-1">
+                                <!-- Show Title -->
+                              <div>
+                                <a
+                                  href="/"
+                                  class="text-blue-700 hover:text-blue-900"
+                                  >Mr. Robot</a
+                                >
+                              </div>
+                              <!-- Prodcutions Dates and Locations -->
+                              <div>
+                                Production Dates: 4/9/2023-4/9/2023 (Corona, California)
+                              </div>
+                              <!-- Type -->
+                              <div class="text-gray-400">
+                                1-hr Single Camera
+                              </div>
+                              <!-- Buttons -->
+                              <div class="py-2 flex flex-row items-center justify-between" >
                                 <div>
-                                  Production Dates: 3/31/2023-4/4/2023 (San Francisco, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                <!-- Buttons -->
-                                <div class="py-2 flex flex-row items-center justify-between" >
-                                  <div>
-                                      <a
-                                    href="/"
-                                    class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
-                                    >Review<span class="sr-only"
-                                      >, Another One</span
-                                    ></a>
                                     <a
-                                    href="/"
-                                    class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
-                                    >Revise<span class="sr-only"
-                                      >, Another One</span
-                                    ></a
-                                  >
-                                  </div>
-                                  
+                                  href="/"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Review<span class="sr-only"
+                                    >, Mr. Robot</span
+                                  ></a>
+                                  <a
+                                  href="/"
+                                  class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
+                                  >Revise<span class="sr-only"
+                                    >, Mr. Robot</span
+                                  ></a
+                                >
                                 </div>
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28">
-                                  <div class="basis-1/3" class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3" class="basis-1/3">
-                                    Submitted 3/31/2023
-                                  </div>
-                                  <div class="basis-1/3" class="basis-1/3">
-                                    Status: Under Review
-                                  </div>
+                                
+                              </div>
+                              <!-- Job Request -->
+                              <div class="flex flex-row gap-28">
+                                <div class="basis-1/3">
+                                  <a href="/" class="text-blue-700 hover:text-blue-900">
+                                    Job Request
+                                  </a>
                                 </div>
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28">
-                                  <div class="basis-1/3">
-                                    <a href="employer-job-request-completed.html" class="text-blue-700 hover:text-blue-900">
-                                      Revision
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 4/9/2023
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
+                                <div class="basis-1/3">
+                                  Submitted 4/9/2023
                                 </div>
+                                <div class="basis-1/3">
+                                  Status: Under Review
                                 </div>
-                                <div class="flex basis-1/2 items-center justify-end">
-                                  <div>
-                                    <a
-                                      href="/ConfirmedHires"
-                                      class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
-                                      >Confirm Hires</a
-                                    >
-                                  </div>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
+                              </div>
+                              </div>
+                              <div class="flex basis-1/2 items-center justify-end">
                                 <div>
                                   <a
-                                    href="/"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >Mr. Robot</a
+                                    href="/ConfirmedHires"
+                                    class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
+                                    >Confirm Hires</a
                                   >
                                 </div>
-                                <!-- Prodcutions Dates and Locations -->
-                                <div>
-                                  Production Dates: 4/9/2023-4/9/2023 (Corona, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                <!-- Buttons -->
-                                <div class="py-2 flex flex-row items-center justify-between" >
-                                  <div>
-                                      <a
-                                    href="/"
-                                    class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
-                                    >Review<span class="sr-only"
-                                      >, Mr. Robot</span
-                                    ></a>
-                                    <a
-                                    href="/"
-                                    class="inline-flex items-center rounded-md border bg-federal-blue px-5 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-30"
-                                    >Revise<span class="sr-only"
-                                      >, Mr. Robot</span
-                                    ></a
-                                  >
-                                  </div>
-                                  
-                                </div>
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 4/9/2023
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Under Review
-                                  </div>
-                                </div>
-                                </div>
-                                <div class="flex basis-1/2 items-center justify-end">
-                                  <div>
-                                    <a
-                                      href="/ConfirmedHires"
-                                      class="bg-white-gold hover:bg-gray-900 text-dark-gold hover:text-white font-bold py-2 px-4 rounded-full border border-dark-gold focus:ring-dark-gold"
-                                      >Confirm Hires</a
-                                    >
-                                  </div>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                          
-                        </table>
-                      </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                        
+                      </table>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Active Title-->
+            </div>
+            <div id="tab2" class="tab-content text-gray-700 hidden">
+              <!-- Active Title-->
           <div class="bg-federal-blue">
             <div class="pb-5">
               <h2
@@ -670,7 +682,9 @@
               </div>
             </div>
           </div>
-          <!-- Completed Title-->
+            </div>
+            <div id="tab3" class="tab-content text-gray-700 hidden">
+              <!-- Completed Title-->
           <div class="bg-federal-blue">
             <div class="pb-5">
               <h2
@@ -830,7 +844,9 @@
               </div>
             </div>
           </div>
-          <!-- Cancelled Title-->
+            </div>
+            <div id="tab4" class="tab-content text-gray-700 hidden">
+              <!-- Cancelled Title-->
           <div class="bg-federal-blue">
             <div class="pb-5">
               <h2
@@ -963,6 +979,9 @@
               </div>
             </div>
           </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -1088,5 +1107,7 @@
         
       </div>
     </footer>
+
+    <script src="js/tabs.js"></script>
   </body>
 </html>
