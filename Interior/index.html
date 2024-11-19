@@ -182,25 +182,69 @@
               </div>
             </div>
             <!-- Tabs -->
-         <div class="tab-section bg-gray-100 ">
-          <div class="flex flex-wrap">
-            <button class="p-4 text-federal-blue font-semibold flex-grow w-80 hover:bg-gray-900 hover:text-white sm:text-3xl font-gill-sans" data-tab-target="#tab1">Submitted</button>
-            <button class="p-4 text-federal-blue font-semibold flex-grow w-80 hover:bg-gray-900 hover:text-white sm:text-3xl font-gill-sans" data-tab-target="#tab2">Active</button>
-            <button class="p-4 text-federal-blue font-semibold flex-grow w-80 hover:bg-gray-900 hover:text-white sm:text-3xl font-gill-sans" data-tab-target="#tab3">Completed</button>
-            <button class="p-4 text-federal-blue font-semibold flex-grow w-80 hover:bg-gray-900 hover:text-white sm:text-3xl font-gill-sans" data-tab-target="#tab4">Cancelled</button>
-          </div>
-         </div>
+            <div class="bg-federal-blue">
+              <div role="tab-list" class="flex flex-wrap text-center">
+
+                <!-- Submitted Container -->
+                <div role="tab" aria-selected="true" aria-controls="tab1" class="tab group relative p-4 rounded-t-3xl text-white font-semibold hover:text-white-gold flex-grow sm:text-xl cursor-pointer font-gill-sans aria-selected:bg-white ">
+                    <!-- Top left circle -->
+                    <div class="absolute -left-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -left-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                  <p class="group-aria-selected:text-federal-blue">Submitted</p>
+                    <!-- Top right circle -->
+                    <div class="absolute -right-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -right-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                    </div>
+
+                <!-- Active Container -->
+                <div role="tab" aria-selected="false" aria-controls="tab2" class="tab group relative p-4 rounded-t-3xl text-white font-semibold hover:text-white-gold flex-grow sm:text-xl cursor-pointer font-gill-sans aria-selected:bg-white ">
+                    <!-- Top left circle -->
+                    <div class="absolute -left-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -left-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                  <p class="group-aria-selected:text-federal-blue">Active</p>
+                    <!-- Top right circle -->
+                    <div class="absolute -right-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -right-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                </div>
+
+                <!-- Completed Container -->
+                <div role="tab" aria-selected="false" aria-controls="tab3" class="tab group relative p-4 rounded-t-3xl text-white font-semibold hover:text-white-gold flex-grow sm:text-xl cursor-pointer font-gill-sans aria-selected:bg-white">
+                    <!-- Top left circle -->
+                    <div class="absolute -left-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -left-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                  <p class="group-aria-selected:text-federal-blue">Completed</p>
+                    <!-- Top right circle -->
+                    <div class="absolute -right-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -right-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                </div>
+
+                <!-- Cancelled Container -->
+                <div role="tab" aria-selected="false" aria-controls="tab4" class="tab group relative p-4 rounded-t-3xl text-white font-semibold hover:text-white-gold flex-grow sm:text-xl cursor-pointer font-gill-sans aria-selected:bg-white ">
+                    <!-- Top left circle -->
+                    <div class="absolute -left-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -left-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                  <p class="group-aria-selected:text-federal-blue">Cancelled</p>
+                    <!-- Top right circle -->
+                    <div class="absolute -right-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue"></div>
+                    <!-- Bottom left circle -->
+                    <div class="absolute -bottom-2 -right-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Line under tabs -->
+          <div class="h-[50px] justify-center bg-white -m-3"></div>
+
+
          <!-- Tabs Content -->
-          <div class="mt-4">
-            <div id="tab1" class="tab-content text-gray-700 hidden">
-              <!-- Submitted Title-->
-              <!-- <div class="pb-5">
-                <h2
-                  class="py-2 mt-2 sm:text-4xl xl:w-1/4 lg:w-1/3 xs:w-1/2 bg-white text-federal-blue text-right pr-6 font-semibold font-gill-sans"
-                >
-                  Submitted
-                </h2>
-              </div> -->
+          <div class="mt-16">
+            <div id="tab1" class="tab-content text-gray-700 block">
               <!-- Submitted Container-->
             <div
             class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
@@ -445,16 +489,7 @@
           </div>
             </div>
             <div id="tab2" class="tab-content text-gray-700 hidden">
-              <!-- Active Title-->
-          <!-- <div class="bg-federal-blue">
-            <div class="pb-5">
-              <h2
-                class="py-2 sm:text-4xl xl:w-1/4 lg:w-1/3 xs:w-1/2 bg-white text-federal-blue text-right pr-6 font-semibold font-gill-sans"
-              >
-                Active
-              </h2>
-            </div>
-          </div> -->
+
           <!-- Active Container -->
           <div class="bg-federal-blue">
             <div
@@ -684,301 +719,282 @@
           </div>
             </div>
             <div id="tab3" class="tab-content text-gray-700 hidden">
-              <!-- Completed Title-->
-          <!-- <div class="bg-federal-blue">
-            <div class="pb-5">
-              <h2
-                class="py-2 sm:text-4xl xl:w-1/4 lg:w-1/3 xs:w-1/2 bg-white text-federal-blue text-right pr-6 font-semibold font-gill-sans"
-              >
-                Completed
-              </h2>
-            </div>
-          </div> -->
-          <!-- Completed Productions -->
-          <div class="bg-federal-blue">
-            <div
-              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
-            >
+              <!-- Completed Productions -->
+              <div class="bg-federal-blue">
+                <div
+                  class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+                >
 
 
-              <div class="px-4 sm:px-6 lg:px-8">
-                <!-- Container -->
-                <div class="flex flex-col">
-                  <div
-                    class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
-                  >
-                    <div
-                      class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[275px]"
-                    >
+                  <div class="px-4 sm:px-6 lg:px-8">
+                    <!-- Container -->
+                    <div class="flex flex-col">
                       <div
-                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                        class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
                       >
-                        <table class="min-w-full divide-y divide-gray-300">
-                          <tbody class="divide-y divide-gray-200 bg-white">
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
-                                <div>
-                                  <a
-                                    href="/Show/58"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >WHOLE NEW SHOW</a
+                        <div
+                          class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[535px]"
+                        >
+                          <div
+                            class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                          >
+                            <table class="min-w-full divide-y divide-gray-300">
+                              <tbody class="divide-y divide-gray-200 bg-white">
+                                <tr>
+                                  <td
+                                    class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
                                   >
-                                </div>
-                                <!-- Prodcutions Dates and Locations -->
-                                <div>
-                                  Production Dates: 3/27/2023-3/31/2023 (Los Angeles, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28 pt-4">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 4/9/2023
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
-                                </div>
-                                </div>
-                                
-                              </td>
-                            </tr>
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
-                                <div>
-                                  <a
-                                    href="/"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >Another One</a
+                                    <div class="basis-1/2 flex flex-col gap-1">
+                                      <!-- Show Title -->
+                                    <div>
+                                      <a
+                                        href="/Show/58"
+                                        class="text-blue-700 hover:text-blue-900"
+                                        >WHOLE NEW SHOW</a
+                                      >
+                                    </div>
+                                    <!-- Prodcutions Dates and Locations -->
+                                    <div>
+                                      Production Dates: 3/27/2023-3/31/2023 (Los Angeles, California)
+                                    </div>
+                                    <!-- Type -->
+                                    <div class="text-gray-400">
+                                      1-hr Single Camera
+                                    </div>
+                                    
+                                    <!-- Job Request -->
+                                    <div class="flex flex-row gap-28 pt-4">
+                                      <div class="basis-1/3">
+                                        <a href="/" class="text-blue-700 hover:text-blue-900">
+                                          Job Request
+                                        </a>
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Submitted 4/9/2023
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Status: Completed
+                                      </div>
+                                    </div>
+                                    </div>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
                                   >
-                                </div>
-                                <!-- Prodcutions Dates and Locations -->
-                                <div>
-                                  Production Dates: 3/31/2023-4/4/2023 (Los Angeles, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28 pt-4">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 4/3/2023
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
-                                </div>
-                                </div>
-                                
-                              </td>
-                            </tr>
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
-                                <div>
-                                  <a
-                                    href="/"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >What About Paul</a
+                                    <div class="basis-1/2 flex flex-col gap-1">
+                                      <!-- Show Title -->
+                                    <div>
+                                      <a
+                                        href="/"
+                                        class="text-blue-700 hover:text-blue-900"
+                                        >Another One</a
+                                      >
+                                    </div>
+                                    <!-- Prodcutions Dates and Locations -->
+                                    <div>
+                                      Production Dates: 3/31/2023-4/4/2023 (Los Angeles, California)
+                                    </div>
+                                    <!-- Type -->
+                                    <div class="text-gray-400">
+                                      1-hr Single Camera
+                                    </div>
+                                    
+                                    <!-- Job Request -->
+                                    <div class="flex flex-row gap-28 pt-4">
+                                      <div class="basis-1/3">
+                                        <a href="/" class="text-blue-700 hover:text-blue-900">
+                                          Job Request
+                                        </a>
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Submitted 4/3/2023
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Status: Completed
+                                      </div>
+                                    </div>
+                                    </div>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
                                   >
-                                </div>
-                                <!-- Prodcutions Dates and Locations -->
-                                <div>
-                                  Production Dates: 12/12/2022-12/13/2022 (Los Angeles, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28 pt-4">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 12/12/2022
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
-                                </div>
-                                </div>
-                                
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                    <div class="basis-1/2 flex flex-col gap-1">
+                                      <!-- Show Title -->
+                                    <div>
+                                      <a
+                                        href="/"
+                                        class="text-blue-700 hover:text-blue-900"
+                                        >What About Paul</a
+                                      >
+                                    </div>
+                                    <!-- Prodcutions Dates and Locations -->
+                                    <div>
+                                      Production Dates: 12/12/2022-12/13/2022 (Los Angeles, California)
+                                    </div>
+                                    <!-- Type -->
+                                    <div class="text-gray-400">
+                                      1-hr Single Camera
+                                    </div>
+                                    
+                                    <!-- Job Request -->
+                                    <div class="flex flex-row gap-28 pt-4">
+                                      <div class="basis-1/3">
+                                        <a href="/" class="text-blue-700 hover:text-blue-900">
+                                          Job Request
+                                        </a>
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Submitted 12/12/2022
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Status: Completed
+                                      </div>
+                                    </div>
+                                    </div>
+                                    
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
             </div>
             <div id="tab4" class="tab-content text-gray-700 hidden">
-              <!-- Cancelled Title-->
-          <!-- <div class="bg-federal-blue">
-            <div class="pb-5">
-              <h2
-                class="py-2 sm:text-4xl xl:w-1/4 lg:w-1/3 xs:w-1/2 bg-white text-federal-blue text-right pr-6 font-semibold font-gill-sans"
-              >
-                Cancelled
-              </h2>
-            </div>
-          </div> -->
-          <!-- Canceled Productions -->
-          <div class="bg-federal-blue">
-            <div
-              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
-            >
-              <div class="px-4 sm:px-6 lg:px-8">
-                <div class="flex flex-col">
-                  <div
-                    class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
-                  >
-                    <div
-                      class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[175px]"
-                    >
+
+              <!-- Canceled Productions -->
+              <div class="bg-federal-blue">
+                <div
+                  class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+                >
+                  <div class="px-4 sm:px-6 lg:px-8">
+                    <div class="flex flex-col">
                       <div
-                        class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                        class="-mx-4 overflow-x-auto overflow-y-auto sm:-mx-6 lg:-mx-8"
                       >
-                        <table class="min-w-full divide-y divide-gray-300">
-                          
-                          <tbody class="divide-y divide-gray-200 bg-white">
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
-                                <div>
-                                  <a
-                                    href="/"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >LA Up Time</a
+                        <div
+                          class="inline-block min-w-full align-middle md:px-6 lg:px-0 h-[535px]"
+                        >
+                          <div
+                            class="overflow-hidden shadow ring-1 ring-black ring-opacity-5"
+                          >
+                            <table class="min-w-full divide-y divide-gray-300">
+                              
+                              <tbody class="divide-y divide-gray-200 bg-white">
+                                <tr>
+                                  <td
+                                    class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
                                   >
-                                </div>
-                                <!-- Prodcutions Dates and Locations -->
-                                <div>
-                                  Production Dates: 12/12/2022-12/14/2022 (Los Angeles, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  Feature - Tier III
-                                </div>
-                                
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28 pt-4">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 12/12/2022
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
-                                </div>
-                                <!-- Rivisions -->
-                                <div class="flex flex-row gap-28 pt-2">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Revision
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 12/12/2022
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
-                                </div>
-                                </div>
-                                
-                              </td>
-                            </tr>
-                            <tr>
-                              <td
-                                class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
-                              >
-                                <div class="basis-1/2 flex flex-col gap-1">
-                                  <!-- Show Title -->
-                                <div>
-                                  <a
-                                    href="/"
-                                    class="text-blue-700 hover:text-blue-900"
-                                    >Fake Show</a
+                                    <div class="basis-1/2 flex flex-col gap-1">
+                                      <!-- Show Title -->
+                                    <div>
+                                      <a
+                                        href="/"
+                                        class="text-blue-700 hover:text-blue-900"
+                                        >LA Up Time</a
+                                      >
+                                    </div>
+                                    <!-- Prodcutions Dates and Locations -->
+                                    <div>
+                                      Production Dates: 12/12/2022-12/14/2022 (Los Angeles, California)
+                                    </div>
+                                    <!-- Type -->
+                                    <div class="text-gray-400">
+                                      Feature - Tier III
+                                    </div>
+                                    
+                                    <!-- Job Request -->
+                                    <div class="flex flex-row gap-28 pt-4">
+                                      <div class="basis-1/3">
+                                        <a href="/" class="text-blue-700 hover:text-blue-900">
+                                          Job Request
+                                        </a>
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Submitted 12/12/2022
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Status: Completed
+                                      </div>
+                                    </div>
+                                    <!-- Rivisions -->
+                                    <div class="flex flex-row gap-28 pt-2">
+                                      <div class="basis-1/3">
+                                        <a href="/" class="text-blue-700 hover:text-blue-900">
+                                          Revision
+                                        </a>
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Submitted 12/12/2022
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Status: Completed
+                                      </div>
+                                    </div>
+                                    </div>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    class="min-w-full whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 flex flex-row"
                                   >
-                                </div>
-                                <!-- Prodcutions Dates and Locations -->
-                                <div>
-                                  Production Dates: 3/15/2023-3/17/2023 (Los Angeles, California)
-                                </div>
-                                <!-- Type -->
-                                <div class="text-gray-400">
-                                  1-hr Single Camera
-                                </div>
-                                
-                                <!-- Job Request -->
-                                <div class="flex flex-row gap-28 pt-4">
-                                  <div class="basis-1/3">
-                                    <a href="/" class="text-blue-700 hover:text-blue-900">
-                                      Job Request
-                                    </a>
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Submitted 3/14/2023
-                                  </div>
-                                  <div class="basis-1/3">
-                                    Status: Completed
-                                  </div>
-                                </div>
-                                
-                                </div>
-                                
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                    <div class="basis-1/2 flex flex-col gap-1">
+                                      <!-- Show Title -->
+                                    <div>
+                                      <a
+                                        href="/"
+                                        class="text-blue-700 hover:text-blue-900"
+                                        >Fake Show</a
+                                      >
+                                    </div>
+                                    <!-- Prodcutions Dates and Locations -->
+                                    <div>
+                                      Production Dates: 3/15/2023-3/17/2023 (Los Angeles, California)
+                                    </div>
+                                    <!-- Type -->
+                                    <div class="text-gray-400">
+                                      1-hr Single Camera
+                                    </div>
+                                    
+                                    <!-- Job Request -->
+                                    <div class="flex flex-row gap-28 pt-4">
+                                      <div class="basis-1/3">
+                                        <a href="/" class="text-blue-700 hover:text-blue-900">
+                                          Job Request
+                                        </a>
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Submitted 3/14/2023
+                                      </div>
+                                      <div class="basis-1/3">
+                                        Status: Completed
+                                      </div>
+                                    </div>
+                                    
+                                    </div>
+                                    
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
             </div>
           </div>
 
