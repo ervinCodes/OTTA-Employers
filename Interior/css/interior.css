@@ -625,20 +625,20 @@ body::before {
   left: -1.25rem;
 }
 
-.bottom-3 {
-  bottom: 0.75rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .-right-10 {
   right: -2.5rem;
 }
 
 .-right-5 {
   right: -1.25rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .isolate {
@@ -655,14 +655,6 @@ body::before {
 
 .z-20 {
   z-index: 20;
-}
-
-.z-50 {
-  z-index: 50;
-}
-
-.-m-5 {
-  margin: -1.25rem;
 }
 
 .-m-3 {
@@ -702,6 +694,11 @@ body::before {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.-my-3 {
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
 }
 
 .-ml-4 {
@@ -850,14 +847,6 @@ body::before {
 
 .h-9 {
   height: 2.25rem;
-}
-
-.h-\[175px\] {
-  height: 175px;
-}
-
-.h-\[275px\] {
-  height: 275px;
 }
 
 .h-\[50px\] {
@@ -1591,6 +1580,11 @@ body::before {
   line-height: 1rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1875,19 +1869,9 @@ body::before {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .hover\:text-blue-900:hover {
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
-}
-
-.hover\:text-federal-blue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(5 5 66 / var(--tw-text-opacity));
 }
 
 .hover\:text-sonic-silver:hover {
@@ -1995,10 +1979,6 @@ body::before {
 
 .disabled\:opacity-30:disabled {
   opacity: 0.3;
-}
-
-.aria-selected\:hidden[aria-selected="true"] {
-  display: none;
 }
 
 .aria-selected\:bg-white[aria-selected="true"] {
@@ -2142,6 +2122,10 @@ body::before {
 
   .sm\:mt-0 {
     margin-top: 0px;
+  }
+
+  .sm\:block {
+    display: block;
   }
 
   .sm\:flex {
@@ -2315,6 +2299,16 @@ body::before {
     line-height: 1.75rem;
   }
 
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:tracking-tight {
     letter-spacing: -0.025em;
   }
@@ -2328,6 +2322,10 @@ body::before {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
@@ -2543,6 +2541,11 @@ body::before {
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
