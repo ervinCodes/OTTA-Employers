@@ -182,12 +182,15 @@
               </div>
             </div>
             <!-- Tabs -->
-            <div class="bg-federal-blue">
+            <div class="bg-federal-blue md:mx-20">
               <div role="tab-list" class="flex flex-wrap text-center">
 
                 <!-- Submitted Container -->
                 <div role="tab" aria-selected="true" aria-controls="tab1" class="tab group relative p-4 rounded-t-3xl text-white font-semibold hover:text-white-gold flex-grow sm:text-xl cursor-pointer font-gill-sans aria-selected:bg-white">
-
+                  <!-- Top left circle -->
+                  <div class="absolute -left-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue md:block hidden"></div>
+                  <!-- Bottom left circle -->
+                  <div class="absolute -bottom-2 -left-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white md:block hidden"></div>
                   <p class="group-aria-selected:text-federal-blue lg:text-3xl sm:text-xl text-xs">Submitted</p>
                     <!-- Top right circle -->
                     <div class="absolute -right-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue md:block hidden"></div>
@@ -228,6 +231,10 @@
                     <!-- Bottom left circle -->
                     <div class="absolute -bottom-2 -left-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white md:block hidden"></div>
                   <p class="group-aria-selected:text-federal-blue lg:text-3xl sm:text-xl text-xs">Cancelled</p>
+                  <!-- Top right circle -->
+                  <div class="absolute -right-10 bottom-3 z-10 h-10 w-10 rounded-full group-aria-selected:bg-federal-blue md:block hidden"></div>
+                  <!-- Bottom left circle -->
+                  <div class="absolute -bottom-2 -right-5 z-0 h-10 w-10 rounded-full group-aria-selected:bg-white md:block hidden"></div>
 
                 </div>
               </div>
@@ -241,7 +248,7 @@
             <div id="tab1" class="tab-content text-gray-700 block">
               <!-- Submitted Container-->
             <div
-            class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+            class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-full lg:px-20"
           >
             <!-- Production Info -->
             <div class="px-4 sm:px-6 lg:px-8">
@@ -487,7 +494,7 @@
           <!-- Active Container -->
           <div class="bg-federal-blue">
             <div
-              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+              class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-full lg:px-20"
             >
               <div class="px-4 sm:px-6 lg:px-8">
                 <!-- Container -->
@@ -716,7 +723,7 @@
               <!-- Completed Productions -->
               <div class="bg-federal-blue">
                 <div
-                  class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+                  class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-full lg:px-20"
                 >
 
 
@@ -869,7 +876,7 @@
               <!-- Canceled Productions -->
               <div class="bg-federal-blue">
                 <div
-                  class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-7xl lg:px-8"
+                  class="mx-auto max-w-2xl px-4 pb-4 sm:px-6 sm:pb-8 md:max-w-full lg:px-20"
                 >
                   <div class="px-4 sm:px-6 lg:px-8">
                     <div class="flex flex-col">
