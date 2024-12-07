@@ -2413,10 +2413,6 @@ body::before {
     margin-right: 7rem;
   }
 
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:table-cell {
     display: table-cell;
   }
