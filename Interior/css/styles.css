@@ -1,12 +1,4 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 
-* {
-  box-sizing: border-box;
-}
 
 #hamburger.active .bar:nth-of-type(1) {
   transform: rotate(45deg) translateY(10px);
